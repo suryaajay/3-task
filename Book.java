@@ -12,7 +12,6 @@ public class Book {
         this.author = author;
         this.isAvailable = isAvailable;
     }
-
     public int getBookID() {
         return bookID;
     }
@@ -56,7 +55,6 @@ class Library {
         books.add(book);
         System.out.println("Book added successfully!");
     }
-
     public void removeBook(int bookID) {
         for (Book book : books) {
             if (book.getBookID() == bookID) {
@@ -67,7 +65,6 @@ class Library {
         }
         System.out.println("Book not found!");
     }
-
     public Book searchBook(int bookID) {
         for (Book book : books) {
             if (book.getBookID() == bookID) {
@@ -76,7 +73,6 @@ class Library {
         }
         return null;
     }
-
     public void displayBooks() {
         if (books.isEmpty()) {
             System.out.println("No books in the library.");
