@@ -149,3 +149,24 @@ class BookManagementSystem {
     }
 }
 
+// Output
+Library Management System
+1. Add Book
+2. Remove Book
+3. Search Book
+4. Display All Books
+5. Exit
+Enter your choice: 1
+Enter Book ID: 456
+Enter Title: people
+Enter Author: st.thomas
+Is Available (true/false): true
+Book added successfully!
+Library Management System
+1. Add Book
+2. Remove Book
+3. Search Book
+4. Display All Books
+5. Exit
+Enter your choice: 5
+Exiting...
