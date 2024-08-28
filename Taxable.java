@@ -85,3 +85,21 @@ class DriverMain {
     }
 }
 
+// Output
+Enter Employee Information:
+Employee ID: 50
+Name: thomas
+Salary: 250000
+Employee ID: 50
+Name: thomas
+Salary: 250000.0
+Income Tax: 26250.0
+
+Enter Product Information:
+Product ID: 35
+Price: 65
+Quantity: 15
+Product ID: 35
+Price: 65.0
+Quantity: 15
+Sales Tax on Unit Price: 4.550000000000001
